@@ -78,6 +78,10 @@ a:focus {
   line-height: 40px;
 }
 
+.navbar-brand.smaller img {
+  width: 75%;
+}
+
 .navbar-brand:focus {
     outline: 0;
 }

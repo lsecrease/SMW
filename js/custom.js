@@ -10,8 +10,10 @@
 
 	//jQuery to collapse the navbar on scroll
 	$(window).scroll(function() {
+		var logo = document.querySelector("navbar-brand");
 		if ($(".navbar").offset().top > 50) {
 			$(".navbar-fixed-top").addClass("top-nav-collapse");
+			$(logo).addClass(".smaller");
 		} else {
 			$(".navbar-fixed-top").removeClass("top-nav-collapse");
 		}
